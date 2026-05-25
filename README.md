@@ -76,7 +76,7 @@ From `package.json`:
 
 ## Known limitations
 
-- The destination is fixed in code (UIT coordinates) and not user-configurable.
+- The destination is fixed in code (coordinates marked as “UIT Location” in source comments) and not user-configurable.
 - `index.html` duplicates most of the logic from `index.js`.
 - No automated test suite is currently implemented.
 - Service worker fetch handler does not implement an explicit cache population strategy.
